@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "faraday", "~> 0.9"
+  spec.add_dependency "faraday", "~> 0.10"
   spec.add_dependency "multi_json", "~> 1.10"
   spec.add_dependency "hashie", ">= 1.2"
 
